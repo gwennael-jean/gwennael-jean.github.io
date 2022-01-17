@@ -3,12 +3,64 @@
     <title>Le blog de gwenn</title>
     <link href="https://gwennael-jean.github.io/feed.xml" rel="self" />
     <link href="https://gwennael-jean.github.io" />
-    <updated>2022-01-11T11:26:11+01:00</updated>
+    <updated>2022-01-17T19:48:55+01:00</updated>
     <author>
         <name>Gwennael Jean</name>
     </author>
     <id>https://gwennael-jean.github.io</id>
 
+    <entry>
+        <title>Les commentaires</title>
+        <author>
+            <name>Gwennael Jean</name>
+        </author>
+        <link href="https://gwennael-jean.github.io/les-commentaires-2.html"/>
+        <id>https://gwennael-jean.github.io/les-commentaires-2.html</id>
+            <category term="Maison Jaune"/>
+
+        <updated>2022-01-17T19:48:55+01:00</updated>
+            <summary>
+                <![CDATA[
+                    Introduction L’idée est de pouvoir laisser les visiteurs publier des commentaires sur différents articles. Sur chaque article, nous afficherons un mini formulaire permettant aux lecteurs de publier des commentaires. Ce formulaire sera composé de 3 champs : Pour un utilisateur connecté, nous n’afficherons que le&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <h1 id="introduction">Introduction</h1>
+<p>L’idée est de pouvoir laisser les visiteurs publier des commentaires sur différents articles.</p>
+<h1 id="le-fonctionnement">Le fonctionnement</h1>
+<p>Sur chaque article, nous afficherons un mini formulaire permettant aux lecteurs de publier des commentaires. Ce formulaire sera composé de 3 champs :</p>
+<ul>
+<li>Nom</li>
+<li>Adresse Email</li>
+<li>Commentaire</li>
+</ul>
+<p>Pour un utilisateur connecté, nous n’afficherons que le champ Commentaire.</p>
+<p>Sous ce formulaire, nous afficherons les commentaires.</p>
+<p>Pour nous aider à la gestion des commentaires, nous utiliserons <a href="https://akismet.com/">Akismet</a>. Akismet est une API gratuite permettant de détécter les spams. Chaque publication de commentaire sera soumis à Akismet.</p>
+<h1 id="la-gestion-coté-admin">La gestion coté Admin</h1>
+<h2 id="crud-des-commentaires">Crud des commentaires</h2>
+<p>Sur le BO, nous aurons une partie consacré à la gestion des commentaires. Nous pourrons choisir Afficher / Bloquer / Supprimer un commentaire.</p>
+<ul>
+<li>Les commentaires Afficher seront, par définition, affiché sur le site</li>
+<li>Les commentaires Bloquer ne seront pas affiché sur le site</li>
+<li>Les commentaires Supprimer seront supprimé de la base de données</li>
+</ul>
+<h2 id="activation-des-commentaires-sur-chaque-article">Activation des commentaires sur chaque article</h2>
+<p>Depuis la page article, les utilisateurs pourront, s’ils le souhaitent, activer ou désactiver la publication de commentaire. Ils pourront également autoriser, s’ils le souhaitent, la publication de commentaire uniquement aux utilisateurs connecté.</p>
+<p>Par défaut, les commentaires seront activé sur les articles, mais seront désactiver sur les brèves et les pages.</p>
+<h2 id="paramétrage-des-commentaires">Paramétrage des commentaires</h2>
+<p>Une page de paramétrage sera accessible pour les administrateurs. Il sera possible, depuis cette page paramètres de :</p>
+<ul>
+<li>Indiquer la clé Akismet</li>
+<li>Indiquer le nombre de commentaires affiché par page</li>
+<li>Indiquer le tri des commentaires (tri par date de publication ASC / DESC)</li>
+<li>Indiquer certains mot clé interdit dans les commentaires (par exemple : Connard / Abruti / Kita / …)</li>
+</ul>
+
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Design pattern Strategy et Compiler Pass</title>
         <author>
@@ -16,8 +68,9 @@
         </author>
         <link href="https://gwennael-jean.github.io/le-design-pattern-strategy-et-le-compiler-pass-de-symfony.html"/>
         <id>https://gwennael-jean.github.io/le-design-pattern-strategy-et-le-compiler-pass-de-symfony.html</id>
+            <category term="Développement"/>
 
-        <updated>2022-01-11T11:26:11+01:00</updated>
+        <updated>2022-01-17T18:58:13+01:00</updated>
             <summary>
                 <![CDATA[
                     Introduction Avant de commencer, voici une brève description d’un projet sur lequel nous avons travaillé : Cléa. Cléa, c’est quoi ? C’est une application, développée pour notre client Qualitel, qui a pour vocation de fournir aux occupants des informations et des services pour le bon&hellip;
