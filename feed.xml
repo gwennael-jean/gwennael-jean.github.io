@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Le blog de gwenn</title>
-    <link href="https://gwennael-jean.github.io/gwennael-jean.github.io/feed.xml" rel="self" />
-    <link href="https://gwennael-jean.github.io/gwennael-jean.github.io" />
+    <link href="https://gwennael-jean.github.io/feed.xml" rel="self" />
+    <link href="https://gwennael-jean.github.io" />
     <updated>2022-01-11T11:26:11+01:00</updated>
     <author>
         <name>Gwennael Jean</name>
     </author>
-    <id>https://gwennael-jean.github.io/gwennael-jean.github.io</id>
+    <id>https://gwennael-jean.github.io</id>
 
     <entry>
         <title>Design pattern Strategy et Compiler Pass</title>
         <author>
             <name>Gwennael Jean</name>
         </author>
-        <link href="https://gwennael-jean.github.io/gwennael-jean.github.io/le-design-pattern-strategy-et-le-compiler-pass-de-symfony.html"/>
-        <id>https://gwennael-jean.github.io/gwennael-jean.github.io/le-design-pattern-strategy-et-le-compiler-pass-de-symfony.html</id>
+        <link href="https://gwennael-jean.github.io/le-design-pattern-strategy-et-le-compiler-pass-de-symfony.html"/>
+        <id>https://gwennael-jean.github.io/le-design-pattern-strategy-et-le-compiler-pass-de-symfony.html</id>
 
         <updated>2022-01-11T11:26:11+01:00</updated>
             <summary>
@@ -58,7 +58,7 @@ Un provider aura pour objectif de nous fournir les consommations d’une certain
 <li><code>GrdfGazparProvider</code> : Qui nous retournera les consommations de notre compteur Gazpar.</li>
 </ul>
 <p>Voici un schéma pour mieux comprendre :</p>
-<p><figure class="post__image"><img loading="lazy" src="https://gwennael-jean.github.io/gwennael-jean.github.io/media/posts/1/UML-Strategy-2.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://gwennael-jean.github.io/gwennael-jean.github.io/media/posts/1/responsive/UML-Strategy-2-xs.png 300w ,https://gwennael-jean.github.io/gwennael-jean.github.io/media/posts/1/responsive/UML-Strategy-2-sm.png 480w ,https://gwennael-jean.github.io/gwennael-jean.github.io/media/posts/1/responsive/UML-Strategy-2-md.png 768w ,https://gwennael-jean.github.io/gwennael-jean.github.io/media/posts/1/responsive/UML-Strategy-2-lg.png 1024w ,https://gwennael-jean.github.io/gwennael-jean.github.io/media/posts/1/responsive/UML-Strategy-2-xl.png 1360w ,https://gwennael-jean.github.io/gwennael-jean.github.io/media/posts/1/responsive/UML-Strategy-2-2xl.png 1600w"  alt="Image description" width="643" height="361" /></figure></p>
+<p><figure class="post__image"><img loading="lazy" src="https://gwennael-jean.github.io/media/posts/1/UML-Strategy-2.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://gwennael-jean.github.io/media/posts/1/responsive/UML-Strategy-2-xs.png 300w ,https://gwennael-jean.github.io/media/posts/1/responsive/UML-Strategy-2-sm.png 480w ,https://gwennael-jean.github.io/media/posts/1/responsive/UML-Strategy-2-md.png 768w ,https://gwennael-jean.github.io/media/posts/1/responsive/UML-Strategy-2-lg.png 1024w ,https://gwennael-jean.github.io/media/posts/1/responsive/UML-Strategy-2-xl.png 1360w ,https://gwennael-jean.github.io/media/posts/1/responsive/UML-Strategy-2-2xl.png 1600w"  alt="Image description" width="643" height="361" /></figure></p>
 <p>Sur ce diagramme, nous retrouvons notre service <code>ExternalConsommationProvider</code> (Le gros bloc jaune toute en haut).
 Celui-ci contiendra une liste de providers (la propriété visible via le petit carré rouge).
 Chaque provider sera une instance de <code>ConsommationProviderInterface</code> (Le bloc jaune au milieu).
