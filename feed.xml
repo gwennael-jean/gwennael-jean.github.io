@@ -3,7 +3,7 @@
     <title>Le blog de gwenn</title>
     <link href="https://gwennael-jean.github.io/feed.xml" rel="self" />
     <link href="https://gwennael-jean.github.io" />
-    <updated>2022-01-17T19:48:55+01:00</updated>
+    <updated>2022-01-17T19:50:39+01:00</updated>
     <author>
         <name>Gwennael Jean</name>
     </author>
@@ -14,11 +14,11 @@
         <author>
             <name>Gwennael Jean</name>
         </author>
-        <link href="https://gwennael-jean.github.io/les-commentaires-2.html"/>
-        <id>https://gwennael-jean.github.io/les-commentaires-2.html</id>
+        <link href="https://gwennael-jean.github.io/les-commentaires.html"/>
+        <id>https://gwennael-jean.github.io/les-commentaires.html</id>
             <category term="Maison Jaune"/>
 
-        <updated>2022-01-17T19:48:55+01:00</updated>
+        <updated>2022-01-17T19:50:39+01:00</updated>
             <summary>
                 <![CDATA[
                     Introduction L’idée est de pouvoir laisser les visiteurs publier des commentaires sur différents articles. Sur chaque article, nous afficherons un mini formulaire permettant aux lecteurs de publier des commentaires. Ce formulaire sera composé de 3 champs : Pour un utilisateur connecté, nous n’afficherons que le&hellip;
