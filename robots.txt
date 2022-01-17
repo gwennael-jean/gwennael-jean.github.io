@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://gwennael-jean.github.io/gwennael-jean.github.io/sitemap.xml
