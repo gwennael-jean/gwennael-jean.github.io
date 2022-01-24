@@ -3,7 +3,7 @@
     <title>Le blog de gwenn</title>
     <link href="https://gwennael-jean.github.io/feed.xml" rel="self" />
     <link href="https://gwennael-jean.github.io" />
-    <updated>2022-01-17T21:24:37+01:00</updated>
+    <updated>2022-01-24T09:55:17+01:00</updated>
     <author>
         <name>Gwennael Jean</name>
     </author>
@@ -77,7 +77,7 @@ Elle est gratuite pour un usage non commercial. Ce qui veut dire que nous devron
         <id>https://gwennael-jean.github.io/le-design-pattern-strategy-et-le-compiler-pass-de-symfony.html</id>
             <category term="Développement"/>
 
-        <updated>2022-01-17T18:58:13+01:00</updated>
+        <updated>2022-01-24T09:55:17+01:00</updated>
             <summary>
                 <![CDATA[
                     Introduction Avant de commencer, voici une brève description d’un projet sur lequel nous avons travaillé : Cléa. Cléa, c’est quoi ? C’est une application, développée pour notre client Qualitel, qui a pour vocation de fournir aux occupants des informations et des services pour le bon&hellip;
@@ -121,7 +121,7 @@ Un provider aura pour objectif de nous fournir les consommations d’une certain
 <p><figure class="post__image"><img loading="lazy" src="https://gwennael-jean.github.io/media/posts/1/UML-Strategy-2.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://gwennael-jean.github.io/media/posts/1/responsive/UML-Strategy-2-xs.png 300w ,https://gwennael-jean.github.io/media/posts/1/responsive/UML-Strategy-2-sm.png 480w ,https://gwennael-jean.github.io/media/posts/1/responsive/UML-Strategy-2-md.png 768w ,https://gwennael-jean.github.io/media/posts/1/responsive/UML-Strategy-2-lg.png 1024w ,https://gwennael-jean.github.io/media/posts/1/responsive/UML-Strategy-2-xl.png 1360w ,https://gwennael-jean.github.io/media/posts/1/responsive/UML-Strategy-2-2xl.png 1600w"  alt="Image description" width="643" height="361" /></figure></p>
 <p>Sur ce diagramme, nous retrouvons notre service <code>ExternalConsommationProvider</code> (Le gros bloc jaune toute en haut).
 Celui-ci contiendra une liste de providers (la propriété visible via le petit carré rouge).
-Chaque provider sera une instance de <code>ConsommationProviderInterface</code> (Le bloc jaune au milieu).
+Chaque provider sera une instance de <code>ConsommationProviderInterface</code> (le bloc jaune au milieu).
 Ce qui obligera chaque provider de développer 2 méthodes (<code>support()</code> et <code>findByRange()</code>).
 Enfin, nous retrouvons nos 2 providers <code>EnedisDataConnectProvider</code> et <code>GrdfGazparProvider</code>
 (chacun implémentant l’interface en question, symbolisé par la flèche en pointillé).</p>
