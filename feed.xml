@@ -3,7 +3,7 @@
     <title>Le blog de gwenn</title>
     <link href="https://gwennael-jean.github.io/feed.xml" rel="self" />
     <link href="https://gwennael-jean.github.io" />
-    <updated>2022-01-24T10:26:33+01:00</updated>
+    <updated>2022-01-24T10:27:18+01:00</updated>
     <author>
         <name>Gwennael Jean</name>
     </author>
@@ -18,7 +18,7 @@
         <id>https://gwennael-jean.github.io/le-design-pattern-strategy-et-le-compiler-pass-de-symfony.html</id>
             <category term="Développement"/>
 
-        <updated>2022-01-24T10:26:33+01:00</updated>
+        <updated>2022-01-24T10:27:18+01:00</updated>
             <summary>
                 <![CDATA[
                     Introduction Avant de commencer, voici une brève description d’un projet sur lequel nous avons travaillé : Cléa. Cléa, c’est quoi ? C’est une application, développée pour notre client Qualitel, qui a pour vocation de fournir aux occupants des informations et des services pour le bon&hellip;
