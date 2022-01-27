@@ -3,7 +3,7 @@
     <title>Le blog de gwenn</title>
     <link href="https://gwennael-jean.github.io/feed.xml" rel="self" />
     <link href="https://gwennael-jean.github.io" />
-    <updated>2022-01-27T14:56:59+01:00</updated>
+    <updated>2022-01-27T15:01:39+01:00</updated>
     <author>
         <name>Gwennael Jean</name>
     </author>
@@ -17,7 +17,7 @@
         <link href="https://gwennael-jean.github.io/rgpd-et-cookies-definition-reglementation-et-solutions-a-mettre-en-place.html"/>
         <id>https://gwennael-jean.github.io/rgpd-et-cookies-definition-reglementation-et-solutions-a-mettre-en-place.html</id>
 
-        <updated>2022-01-27T14:56:59+01:00</updated>
+        <updated>2022-01-27T15:01:39+01:00</updated>
             <summary>
                 <![CDATA[
                     Introduction Le non respect des norme RGPD peut provoquer des amendes. Aujourd’hui, sur Facebook, Google et Youtube, il est facile d’accepter ou refuser. Mais très difficile de modifier ses choix. Ils ont 3 mois pour faire les modifications. Au delà, c’est 100 000 € par&hellip;
@@ -33,11 +33,26 @@ Ils ont 3 mois pour faire les modifications. Au delà, c’est 100 000 € par j
 <h1 id="quest-ce-quun-cookies">Qu’est ce qu’un cookies</h1>
 <p>Un cookie est un fichier qui permet de tracer et analyser le comportement de l’utilisateur.</p>
 <p>Il existe 3 grands types de cookie :</p>
-<ul>
-<li>Cookies de fonctionnement    Necessaire au bon fonctionnement du site</li>
-<li>Cookies d’analyse            Obligation du concentement de l’utilisateur</li>
-<li>Cookies publicitaires        Obligation du concentement de l’utilisateur</li>
-</ul>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Info</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Cookies de fonctionnement</td>
+<td>Necessaire au bon fonctionnement du site</td>
+</tr>
+<tr>
+<td>Cookies d’analyse</td>
+<td>Obligation du concentement de l’utilisateur</td>
+</tr>
+<tr>
+<td>Cookies publicitaires</td>
+<td>Obligation du concentement de l’utilisateur</td>
+</tr>
+</tbody></table>
 <p>Les cookies publicitaires sont ceux qui posent le plus de problème.</p>
 <blockquote>
 <p>Pourquoi un cookie s’appelle ainsi ? En reference au fortune cookie (biscuit chinois) qui contenait un petit message</p>
