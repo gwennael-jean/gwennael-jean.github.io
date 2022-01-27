@@ -3,7 +3,7 @@
     <title>Le blog de gwenn</title>
     <link href="https://gwennael-jean.github.io/feed.xml" rel="self" />
     <link href="https://gwennael-jean.github.io" />
-    <updated>2022-01-27T15:01:39+01:00</updated>
+    <updated>2022-01-27T15:09:08+01:00</updated>
     <author>
         <name>Gwennael Jean</name>
     </author>
@@ -17,7 +17,7 @@
         <link href="https://gwennael-jean.github.io/rgpd-et-cookies-definition-reglementation-et-solutions-a-mettre-en-place.html"/>
         <id>https://gwennael-jean.github.io/rgpd-et-cookies-definition-reglementation-et-solutions-a-mettre-en-place.html</id>
 
-        <updated>2022-01-27T15:01:39+01:00</updated>
+        <updated>2022-01-27T15:09:08+01:00</updated>
             <summary>
                 <![CDATA[
                     Introduction Le non respect des norme RGPD peut provoquer des amendes. Aujourd’hui, sur Facebook, Google et Youtube, il est facile d’accepter ou refuser. Mais très difficile de modifier ses choix. Ils ont 3 mois pour faire les modifications. Au delà, c’est 100 000 € par&hellip;
@@ -81,10 +81,10 @@ En tant qu’utilisateur, et avec ce système, est-ce que mon consentement est l
 <ul>
 <li>Cookies strictement nécessaires à la fourniture d’un service expressement demandés par l’utilisateur (cookies d’authentification, panier d’achats)<h1 id="les-solutions-a-mettre-en-place">Les solutions a mettre en place</h1>
 </li>
-<li>Il faut la rédaction d’une page dédié à la gestion des cookies (avec un tableau en 2 colonnes : Nom du cookies / Finalité)</li>
-<li>Il existe plein d’outils de gestion des cookies : tarteaucitron, axeptio, consent manager (Quantcast est déconseillé)</li>
-<li>Sans paramétrage, Google Analytics nécessite le consentement (Il faut bouger la récupération de la ville et l’IP pour évité le consentement).</li>
-<li>matomo, abla analytics ne nécessite pas de consentement.</li>
+<li>Avoir une page dédié à la gestion des cookies (avec un tableau en 2 colonnes : Nom du cookies / Finalité)</li>
+<li>Il existe plein d’outils de gestion des cookies : Rarteaucitron, Axeptio, Consent Manager (Quantcast est déconseillé)</li>
+<li>Sans paramétrage, Google Analytics nécessite le consentement (Il faut changer la localisation (pas plus précis que la récupération de la ville) et l’IP pour évité le consentement).</li>
+<li>Matomo, Abla Analytics ne nécessite pas de consentement.</li>
 </ul>
 
             ]]>
