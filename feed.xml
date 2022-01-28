@@ -3,7 +3,7 @@
     <title>Le blog de gwenn</title>
     <link href="https://gwennael-jean.github.io/feed.xml" rel="self" />
     <link href="https://gwennael-jean.github.io" />
-    <updated>2022-01-28T09:26:47+01:00</updated>
+    <updated>2022-01-28T14:58:09+01:00</updated>
     <author>
         <name>Gwennael Jean</name>
     </author>
@@ -18,19 +18,31 @@
         <id>https://gwennael-jean.github.io/rgpd-et-cookies-definition-reglementation-et-solutions-a-mettre-en-place.html</id>
             <category term="Développement"/>
 
-        <updated>2022-01-28T09:21:37+01:00</updated>
+        <updated>2022-01-28T14:58:09+01:00</updated>
             <summary>
                 <![CDATA[
-                    Introduction Le non respect des norme RGPD peut provoquer des amendes. Aujourd’hui, sur Facebook, Google et Youtube, il est facile d’accepter ou refuser. Mais très difficile de modifier ses choix. Ils ont 3 mois pour faire les modifications. Au delà, c’est 100 000 € par&hellip;
+                    Introduction Au tout début de l’air d’internet, chaque requete HTTP était “sans état”. Il était donc impossible de garder en mémoire les informations d’un utilisateur. En 1994, C’est l’avenement d’internet. Les développeurs de netscape travaillent sur le développement d’un serveur perettant la mise ne place&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                 <h1 id="introduction">Introduction</h1>
-<p>Le non respect des norme RGPD peut provoquer des amendes.</p>
-<p>Aujourd’hui, sur Facebook, Google et Youtube, il est facile d’accepter ou refuser.
-Mais très difficile de modifier ses choix.
+<p>Au tout début de l’air d’internet, chaque requete HTTP était “sans état”. Il était donc impossible de garder en mémoire les informations
+d’un utilisateur.</p>
+<p>En 1994, C’est l’avenement d’internet.</p>
+<p>Les développeurs de netscape travaillent sur le développement d’un serveur perettant la mise ne place de sites e-commerce.
+Cependant, les développeurs se retrouvent face à un problème :
+Comment garder en mémoire l’état du panier d’achat du client.</p>
+<p>C’est alors que Lou Montulli et John Giannandrea urent une idée. Ils proposent de stocker un état dans un fichier.</p>
+<p>Le cookie est né.</p>
+<p>L’idée est simple : Le serveur dépose un fichier sur l’ordinateur du client.
+Celui-ci renverra ce fichier à chacune de ses requête HTTP.
+Le serveur aura ainsi la possibilité d’identifier l’utilisateur et ainsi, enregistrer l’état de son panier.</p>
+<p>Depuis, le cookie à évolué et des questions concernant le respect de la vie privée se posent, et aujourd’hui, c’est Facebook, Google et Youtube qui font les frais. Une amende de 150 000 000 d’euros à été infligé à Google. En effet, il est facile d’accepter ou refuser, mais très difficile de modifier ses choix.
 Ils ont 3 mois pour faire les modifications. Au delà, c’est 100 000 € par jour de retard.</p>
+<blockquote>
+<p>La CNIL est une autorité administrative française chargée de veiller à ce que l’informatique soit au service du citoyen et qu’elle ne porte atteinte ni à l’identité humaine, ni aux droits de l’homme, ni à la vie privée, ni aux libertés individuelles ou publiques.</p>
+</blockquote>
 <h1 id="quest-ce-quun-cookies">Qu’est ce qu’un cookies</h1>
 <p>Un cookie est un fichier qui permet de tracer et analyser le comportement de l’utilisateur.</p>
 <p>Il existe 3 grands types de cookie :</p>
