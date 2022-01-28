@@ -3,7 +3,7 @@
     <title>Le blog de gwenn</title>
     <link href="https://gwennael-jean.github.io/feed.xml" rel="self" />
     <link href="https://gwennael-jean.github.io" />
-    <updated>2022-01-27T15:09:08+01:00</updated>
+    <updated>2022-01-28T09:24:28+01:00</updated>
     <author>
         <name>Gwennael Jean</name>
     </author>
@@ -16,8 +16,9 @@
         </author>
         <link href="https://gwennael-jean.github.io/rgpd-et-cookies-definition-reglementation-et-solutions-a-mettre-en-place.html"/>
         <id>https://gwennael-jean.github.io/rgpd-et-cookies-definition-reglementation-et-solutions-a-mettre-en-place.html</id>
+            <category term="Développement"/>
 
-        <updated>2022-01-27T15:09:08+01:00</updated>
+        <updated>2022-01-28T09:21:37+01:00</updated>
             <summary>
                 <![CDATA[
                     Introduction Le non respect des norme RGPD peut provoquer des amendes. Aujourd’hui, sur Facebook, Google et Youtube, il est facile d’accepter ou refuser. Mais très difficile de modifier ses choix. Ils ont 3 mois pour faire les modifications. Au delà, c’est 100 000 € par&hellip;
@@ -55,7 +56,7 @@ Ils ont 3 mois pour faire les modifications. Au delà, c’est 100 000 € par j
 </tbody></table>
 <p>Les cookies publicitaires sont ceux qui posent le plus de problème.</p>
 <blockquote>
-<p>Pourquoi un cookie s’appelle ainsi ? En reference au fortune cookie (biscuit chinois) qui contenait un petit message</p>
+<p>Pourquoi un cookie s’appelle ainsi ? En reference au “fortune cookie” (biscuit chinois) qui contenait un petit message à l’intérieur.</p>
 </blockquote>
 <p>Il existe un certain flou juridique sur le consentement des cookies qui consiste à forcer l’utilisateur a accepter les cookies,
 ou bien de payer une certaines sommes. Ce système à rapporté énormément d’argent à ces entreprises.
@@ -99,7 +100,7 @@ En tant qu’utilisateur, et avec ce système, est-ce que mon consentement est l
         <id>https://gwennael-jean.github.io/le-design-pattern-strategy-et-le-compiler-pass-de-symfony.html</id>
             <category term="Développement"/>
 
-        <updated>2022-01-24T10:27:18+01:00</updated>
+        <updated>2022-01-28T09:24:28+01:00</updated>
             <summary>
                 <![CDATA[
                     Introduction Avant de commencer, voici une brève description d’un projet sur lequel nous avons travaillé : Cléa. Cléa, c’est quoi ? C’est une application, développée pour notre client Qualitel, qui a pour vocation de fournir aux occupants des informations et des services pour le bon&hellip;
@@ -129,7 +130,7 @@ Mais comment le faire sans toucher au code déjà fonctionnel ?</p>
 <h1 id="le-design-pattern-strategy">Le design pattern Strategy</h1>
 <p>Le design pattern Strategy est un patron de conception permettant la sélection et l’exécution d’algorithmes
 selon certaines conditions, le tout en respectant l’un des principes SOLID, le Single Responsability
-(la responsabilité unique).</p>
+(la responsabilité unique). Ce principe veut qu’un service ne réponde qu’a un seul et unique objectif.</p>
 <p>Nous aurons donc un service qui sera chargé d’exécuter ces différents algorithmes.
 Nous nommerons ce service <code>ExternalConsommationProvider</code>.
 Chaque algorithmes sera représenté par un service que nous appelerons provider.
