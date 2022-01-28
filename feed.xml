@@ -3,7 +3,7 @@
     <title>Le blog de gwenn</title>
     <link href="https://gwennael-jean.github.io/feed.xml" rel="self" />
     <link href="https://gwennael-jean.github.io" />
-    <updated>2022-01-28T14:58:09+01:00</updated>
+    <updated>2022-01-28T16:51:17+01:00</updated>
     <author>
         <name>Gwennael Jean</name>
     </author>
@@ -18,7 +18,7 @@
         <id>https://gwennael-jean.github.io/rgpd-et-cookies-definition-reglementation-et-solutions-a-mettre-en-place.html</id>
             <category term="Développement"/>
 
-        <updated>2022-01-28T14:58:09+01:00</updated>
+        <updated>2022-01-28T16:51:17+01:00</updated>
             <summary>
                 <![CDATA[
                     Introduction Au tout début de l’air d’internet, chaque requete HTTP était “sans état”. Il était donc impossible de garder en mémoire les informations d’un utilisateur. En 1994, C’est l’avenement d’internet. Les développeurs de netscape travaillent sur le développement d’un serveur perettant la mise ne place&hellip;
